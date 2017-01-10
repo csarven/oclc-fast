@@ -1,0 +1,8 @@
+http://experimental.worldcat.org/fast/download/FASTPersonal.nt.zip
+http://experimental.worldcat.org/fast/download/FASTCorporate.nt.zip
+http://experimental.worldcat.org/fast/download/FASTEvent.nt.zip
+http://experimental.worldcat.org/fast/download/FASTTitle.nt.zip
+http://experimental.worldcat.org/fast/download/FASTChronological.nt.zip
+http://experimental.worldcat.org/fast/download/FASTTopical.nt.zip
+http://experimental.worldcat.org/fast/download/FASTGeographic.nt.zip
+http://experimental.worldcat.org/fast/download/FASTFormGenre.nt.zip
