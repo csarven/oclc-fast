@@ -9,4 +9,4 @@ scripts/convert.sh to unpack and create an HDT binary
 
 ## License
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for the scripts/toling here.
-The license of the FAST data is subject to its own original rights and license.
+Take note of FAST data's own original rights and license.
