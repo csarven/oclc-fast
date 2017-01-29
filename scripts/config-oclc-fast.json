@@ -1,0 +1,48 @@
+{
+  "title": "My Linked Data Fragments server",
+
+  "datasources": {
+    "oclc-fast": {
+      "title": "FAST (Faceted Application of Subject Terminology)",
+      "type": "HdtDatasource",
+      "description": "FAST with an HDT back-end",
+      "settings": { "file": "data/FAST.hdt" }
+    },
+    "dbpedia-sparql": {
+      "title": "DBpedia 3.9 (Virtuoso)",
+      "type": "SparqlDatasource",
+      "description": "DBpedia 3.9 with a Virtuoso back-end",
+      "settings": { "endpoint": "http://dbpedia.restdesc.org/", "defaultGraph": "http://dbpedia.org" }
+    }
+  },
+
+  "prefixes": {
+    "rdf":         "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs":        "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd":         "http://www.w3.org/2001/XMLSchema#",
+    "dc":          "http://purl.org/dc/terms/",
+    "foaf":        "http://xmlns.com/foaf/0.1/",
+    "dbpedia":     "http://dbpedia.org/resource/",
+    "dbpedia-owl": "http://dbpedia.org/ontology/",
+    "dbpprop":     "http://dbpedia.org/property/",
+    "hydra":       "http://www.w3.org/ns/hydra/core#",
+    "void":        "http://rdfs.org/ns/void#",
+    "dcterms":     "http://purl.org/dc/terms/",
+    "schema":      "http://schema.org/",
+    "skos":        "http://www.w3.org/2004/02/skos/core#",
+    "wcatf":       "http://id.worldcat.org/fast/",
+    "viaf":        "https://viaf.org/viaf/",
+    "locn":        "http://id.loc.gov/authorities/names/",
+    "locs":        "http://id.loc.gov/authorities/subjects/",
+    "nalt":        "http://lod.nal.usda.gov/nalt/",
+    "gnd":         "http://d-nb.info/gnd/",
+    "genreForms":  "http://id.loc.gov/authorities/genreForms/",
+    "geonames":    "http://sws.geonames.org/",
+    "wikipedia":   "http://en.wikipedia.org/wiki/",
+    "wikidata":    "https://www.wikidata.org/wiki/",
+    "bnfark":      "http://data.bnf.fr/ark:/12148/",
+    "glin":        "http://content.glin.gov/subjectTerm/",
+    "agrovoc":     "http://aims.fao.org/aos/agrovoc/",
+    "oclcaf":      "http://www.oclc.org/research/activities/fast/"
+  }
+}
