@@ -11,4 +11,4 @@ mkdir -p "$pathToZip";
 
 while read url; do
   wget "$url" -P "$pathToZip"/
-done < data.txt
+done < uri-list
