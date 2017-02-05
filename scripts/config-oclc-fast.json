@@ -43,6 +43,7 @@
     "bnfark":      "http://data.bnf.fr/ark:/12148/",
     "glin":        "http://content.glin.gov/subjectTerm/",
     "agrovoc":     "http://aims.fao.org/aos/agrovoc/",
-    "oclcaf":      "http://www.oclc.org/research/activities/fast/"
+    "oclcaf":      "http://www.oclc.org/research/activities/fast/",
+    "pto":         "http://www.productontology.org/id/"
   }
 }
